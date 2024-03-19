@@ -17,7 +17,7 @@ display(df_laptimes)
 # COMMAND ----------
 
 df_driver = spark.read.csv('s3://columbia-gr5069-main/raw/drivers.csv', header=True)
-df_driver.count()
+df_driver.count() 
 
 # COMMAND ----------
 
@@ -73,4 +73,4 @@ df_lap_drivers.write.csv('s3://ne-gr5069/processed/in_class_workshop_2024/laptim
 
 # COMMAND ----------
 
-
+Done
